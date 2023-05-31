@@ -1,0 +1,11 @@
+[package]
+name = "how"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+arboard = "3.2.0"
+async-openai = "0.10.3"
+chrono = "0.4.24"
+clap = { version = "4.2.7", features = ["derive"] }
+tokio = { version = "1.28.1", features = ["rt", "rt-multi-thread", "macros"]  }
